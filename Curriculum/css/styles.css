@@ -1,0 +1,78 @@
+.foto {
+    width: 105px;
+    height: 120px;
+    padding-left: 50%;
+}
+h1 {
+    background-color: #C4C4C4;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 35px;
+    color: #005677;
+    font-weight: 700;
+
+}
+.espacio {
+    padding-bottom: 5%;
+}
+#datos{
+    background-color: #C4C4C4;
+    padding: 3px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    color: #005677;
+    font-weight: 700;
+}
+.lista-datos li {
+    line-height: 30px;
+
+}
+.lista-formacion li {
+    line-height: 20px;
+
+}
+#cursiva {
+    font-style: italic;
+   
+    
+}
+#formacion {
+    background-color: #C4C4C4;
+    padding: 3px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    color: #005677;
+    font-weight: 700;
+
+}
+#experiencia {
+    background-color: #C4C4C4;
+    padding: 3px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    color: #005677;
+    font-weight: 700;
+}
+p {
+    padding-left: 4.3%;
+    line-height: 2px;
+    font-family: Times New Roman;
+}
+
+footer {
+    color: white;
+    background-color: #005677;
+    display: flex;
+    justify-content: center;
+}
+#redes {
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+    word-spacing: 20px;
+    
+    
+}
+	 
+ 
+ 
