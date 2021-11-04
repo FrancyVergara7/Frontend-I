@@ -50,6 +50,7 @@ h2 {
     line-height: 30px;
     font-family: 'Poppins', sans-serif;
     padding-left: 2%;
+    padding-right: 2%;
 
 }
 /* Agregar altura de linea en las listas */
@@ -67,6 +68,8 @@ p {
     padding-left: 7.2%;
     line-height: 2px;
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
+
 }
 .experiencias {
     padding-left: 3.5%;
