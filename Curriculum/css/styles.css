@@ -3,24 +3,15 @@ html {
     padding-right: 15%;
     
 }
-.foto {
+header {
+    background-image: url('../img/fondo.jpg');
+    height: 200%;
+}
+#foto {
     width: 170px;
     height: 140px;
     padding-left: 45%;
     padding-top: 2%; 
-}
-#menu {
-    background-color: #78DCFE;
-    padding-left: 90%;
-    padding-top: 0.8%;
-    padding-bottom: 0.8%;
-    font-weight: 800;
-    
-
-}
-#fondo {
-    background-image: url('../img/fondo.jpg');
-    height: 200%;
 }
 h1 {
     background-color: #EDA9C2;
@@ -29,13 +20,22 @@ h1 {
     font-size: 30px;
     color: #ffffff;
     font-weight: 600;
-
 }
+.flor {
+    color: #EDA9C2;
+}
+#menu {
+    background-color: #78DCFE;
+    padding-left: 87%;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 18px;
+}
+/* Para dejar el espacio en blanco despues del header */
 .espacio {
-    padding-bottom: 7%;
-}
-.espacio-footer {
-    padding-bottom: 4%;
+    padding-bottom: 10%;
+
+    background-color: white;
 }
 h2 {
     background-color: #78DCFE;
@@ -45,34 +45,37 @@ h2 {
     color: #3a3a3a;
     font-weight: 600;
 }
-.lista-datos li {
+/* Parrafos de sobre mi */
+.descripcion {
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2%;
 
 }
-.lista-formacion li {
-    line-height: 20px;
-
+/* Agregar altura de linea en las listas */
+ul li {
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
 }
-#cursiva {
+/* Poner en cursiva el texto de las listas */
+.cursiva {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 600;
-    
-}
-
-ul li {
-    font-family: 'Poppins', sans-serif;
-
 }
 p {
     padding-left: 7.2%;
     line-height: 2px;
     font-family: 'Poppins', sans-serif;
 }
-#experiencias {
+.experiencias {
     padding-left: 3.5%;
     line-height: 2px;
     font-family: 'Poppins', sans-serif;
+}
+/*Para dejar espacio en blanco en el footer */
+#espacio-footer {
+    padding-bottom: 4%;
 }
 
 footer {
@@ -87,10 +90,9 @@ footer {
     margin-left: 30px;
     word-spacing: 20px;  
 }
-.fab fa-github {
-    height: 500px;
-    width: 500px;
-
+.icono {
+    color:white ;
+    font-size: 22px;
 }
 
 
