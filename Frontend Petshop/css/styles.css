@@ -1,0 +1,135 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.menu-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    height: 25px;
+    border: solid 4px magenta;
+
+}
+#idioma {
+    color: white;
+    font-size: 14px;
+    padding-left: 5%;
+    border: solid 4px rgb(17, 70, 131);
+}
+#menu-idioma {
+    display: flex;
+    border: solid 4px rgb(253, 209, 13);
+    color: white;
+    font-size: 14px;
+    padding-right: 90px;
+}
+#menu-idioma li{
+    margin: 0 10px;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    border: solid 4px rgb(219, 18, 18);
+
+}   
+#menu {
+    display: flex;
+    align-items: center;
+    padding-right: 35px;
+    color: white; 
+    border: solid 4px rgb(9, 204, 41);
+
+}
+#menu li{
+    margin: 0 20px;
+}
+
+#banner{
+    border: solid 4px rgb(0, 0, 0);
+    background-image:url('../img/Petshop.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+#banner h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 68%;
+    top: 35%;
+    width: 475px;
+    height: 70px;
+    background-color: white;
+    font-weight: normal;
+    font-size: 40px;
+    border-radius: 8px;
+
+    border: solid 4px rgb(1, 224, 240);
+}
+.descuento {
+    position:relative;
+    left: 74%;
+    top: 33%;
+    width: 350px;
+    font-weight: normal;
+}
+#comederos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: 35%;
+    left: 76%;
+    width: 200px;
+    height: 60px;
+    border: solid 4px rgb(161, 226, 40);
+    background-color: #F0A83E ;
+    border-radius: 8px;
+}
+.categorias{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px rgb(226, 40, 40);
+}
+.productos {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 900px;
+}
+#tienda .producto {
+    color: #3C2313;
+    font-weight: bold;
+    font-size: 15px;
+}
+#tienda .precio{
+    color: #F0A83E;
+    font-weight: 500;
+
+}
+footer {
+    background-color: #3C2313;
+}
+footer h3{
+    color:white;
+}
+footer .datos {
+    color: #8A8787;
+
+} 
+.contacto {
+    color: #8A8787;
+    font-size: 40px;
+    
+}
+#copyright {
+    color: white;
+    text-align: center;
+    background-color:#F0A83E ;
+}
