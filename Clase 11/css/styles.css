@@ -1,0 +1,149 @@
+html{
+    font-family:'Roboto', sans-serif;
+}
+.cabecera {
+    display: flex;
+    background-color: #222222;
+}
+#logo {
+    height: 130px;
+    padding: 0.5%;
+}
+/* Nombre de la pagina */
+h1 #pizza {
+    color:#39B24A;
+}
+h1 #conector {
+    color: white;
+}
+h1 #front {
+    color: #FC200C;
+}
+#titulo {
+    font-size: 15px;
+    display: flex;
+    padding-top: 1.8%;
+}
+/* Menu de navegación */
+.menu{
+    padding: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    left: 150%;
+    margin-top:4%;  
+}
+.menu-items{
+    display: flex; 
+    
+}
+.menu-items li{ 
+    border-radius: 3px;
+    margin: 0 20px;
+}
+.menu-items li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+/* fondo body */
+body{
+    background-color:rgb(231, 231, 231);
+}
+/* contenedor principal */
+.container{
+    display: flex;
+    align-items: center;
+}
+/* banner promocion */
+#promocion{
+    
+    padding-left: 2%;
+    position: relative;
+    bottom: auto;    
+}
+#promocion img{
+    height: 520px;  
+}
+#promocion-item{
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    left: 24px;
+}
+#promocion-item #envio{
+    color: #FC200C;
+}
+#promocion-item #comprando{
+    color: white;
+}
+#promocion-item #pizzas{
+    color: #FC200C;
+}
+/* banner podio */
+#podio{
+    background-color: white;
+    height: 520px;
+    width: 51%;
+    margin-left: 5px;
+    margin-top: 6%;
+    border-radius: 6px;
+}
+#podio #podio-pizzas{
+    font-size: 35px;
+    color: #FC200C;
+    text-align: center;
+}
+#podio #top{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+#podio ol{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    line-height: 200%;
+    top: 50px;
+    left: 80px;
+}
+#podio img{
+    height: 180px;
+    position: relative;
+    bottom: 180px;
+    left: 60%;
+}
+/* pie de pagina */
+footer{
+    display: flex;
+    position: relative;
+    top: 80px;
+    background-color: #222222;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 65%;
+}
+.menu-footer{
+    padding:15px;  
+    
+}
+.footer-items li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 200%;
+}
+#logo-footer{
+    height: 130px;
+    padding: 0.5%;
+}
+#titulo-footer {
+    font-size: 15px;
+    display: flex;
+    padding-top: 1.8%;
+}
