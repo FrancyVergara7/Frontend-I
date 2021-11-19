@@ -10,13 +10,12 @@ header h1 {
     padding: 20px;
     margin-top: -20px;
 }
-/* CODIGO PRIMERA CAJA */
-.container {
-    padding-left: 200px;
-    padding-top: 30px;
-    width: 100%;
-    height: 430px;
-    margin: auto;
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: solid 3px rgb(80, 253, 11);
+
 }
 .container .card{
     position:relative;
@@ -24,10 +23,9 @@ header h1 {
     background-color:#F3F3F3;
     width: 300px;
     height: 430px;
-    border: solid 1px #F3F3F3;
     border-radius: 8px;
     text-align: center;
-    
+    font-size: 1rem;
 }
 .container .card .name{
     position: absolute;
@@ -40,7 +38,7 @@ header h1 {
     left: 90px;  
 }
 .icono-corazon{
-    font-size: 30px; 
+    font-size: 150%; 
     color: red;
     position:absolute;
     top:15px;
@@ -57,7 +55,6 @@ header h1 {
     font-size: 30px;
     font-weight: 400;
 }
-
 .foto {
     border-radius: 80px;
 }
@@ -72,30 +69,6 @@ h2 {
     color: white;
     padding:20px;
 }
-/* CODIGO SEGUNDA CAJA  */
-.container-segundo {
-    position: absolute;
-    top: 170px;
-    left: 450px;
-    padding-left: 230px;
-    padding-top: -30px;
-    width: 100%;
-    height: 430px;
-    justify-content: center;
-    margin: auto;
-}
-/* CODIGO TERCERA CAJA */
-.container-tercero{
-    position: absolute;
-    top: 5px;
-    left: 450px;
-    padding-left: 250px;
-    padding-top: -30px;
-    width: 100%;
-    height: 430px;
-    justify-content: center;
-    margin: auto;
-}
 #pie-pagina{
     color: white;
     padding-left:20px;
@@ -105,4 +78,26 @@ h2 {
    height:58px;
    width:100%;
    background:#00669F;
+}
+/* media queries */
+@media (max-width: 450px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+}
+}
+@media (max-width: 450px){
+    .container .card{
+        margin-top: 10%;
+    }
+  }
+@media (max-width: 800px){
+    .container{
+        flex-direction: column;
+}
+}
+@media (max-width: 800px){
+  .container .card{
+      margin-top: 10%;
+  }
 }
