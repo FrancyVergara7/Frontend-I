@@ -1,24 +1,22 @@
 html {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
-.menu-navegacion{
+/* Frase y menu para seleccionar el idioma */
+#menu-navegacion{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #222222;
     height: 25px;
-    border: solid 4px magenta;
-
 }
 #idioma {
     color: white;
     font-size: 14px;
-    padding-left: 5%;
-    border: solid 4px rgb(17, 70, 131);
+    padding-left: 5%;    
 }
 #menu-idioma {
     display: flex;
-    border: solid 4px rgb(253, 209, 13);
     color: white;
     font-size: 14px;
     padding-right: 90px;
@@ -26,31 +24,33 @@ html {
 #menu-idioma li{
     margin: 0 10px;
 }
-.cabecera{
+/* cabecera con logo y menu principal */
+#cabecera{
     display: flex;
     justify-content: space-between;
     background-color: #F0A83E;
-    border: solid 4px rgb(219, 18, 18);
-
-}   
+} 
+/*Menu para el responsive*/
+#menu-hamburguesa .hamburguesa { 
+    display: none;
+    color: white  
+}  
 #menu {
     display: flex;
     align-items: center;
     padding-right: 35px;
     color: white; 
-    border: solid 4px rgb(9, 204, 41);
-
 }
 #menu li{
     margin: 0 20px;
 }
+/* banner principal */
 
 #banner{
-    border: solid 4px rgb(0, 0, 0);
     background-image:url('../img/Petshop.jpg');
     background-repeat: no-repeat;
     height: 700px;
-    background-size: cover;
+    background-size: cover; 
 }
 #banner h1{
     display: flex;
@@ -65,16 +65,14 @@ html {
     font-weight: normal;
     font-size: 40px;
     border-radius: 8px;
-
-    border: solid 4px rgb(1, 224, 240);
 }
-.descuento {
+#descuento {
     position:relative;
     left: 74%;
     top: 33%;
     width: 350px;
     font-weight: normal;
-}
+}    
 #comederos {
     display: flex;
     align-items: center;
@@ -87,49 +85,351 @@ html {
     left: 76%;
     width: 200px;
     height: 60px;
-    border: solid 4px rgb(161, 226, 40);
     background-color: #F0A83E ;
     border-radius: 8px;
 }
-.categorias{
-    display: inline-flex;
+/* categorias de la tienda */
+#categorias{
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 4px rgb(226, 40, 40);
 }
-.productos {
+#categorias-items{
+    display: flex;
+}
+.pata{
+    color: #F0A83E;
+    padding-top: 2%;
+    font-size: 70px;
+}
+#productos {
     color: #3C2313;
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 900px;
 }
-#tienda .producto {
-    color: #3C2313;
-    font-weight: bold;
-    font-size: 15px;
+/* productos de la tienda */
+#tienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#tienda .precio{
+.tienda-producto{
+    margin: 50px 15px;
+    background-color: #FBFAF6;
+    text-align: center;
+    line-height: 5px;
+}
+.tienda-producto .producto{
+    color: #3C2313;
+    font-weight:  bold;
+}
+.tienda-producto .precio{
     color: #F0A83E;
-    font-weight: 500;
+}
+/* Seccion contactanos */
+#contacto{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#contacto h2{
+    margin: 20px 0;
+}
+/* formulario de contacto */
+input{
+    display: flex;
+    margin-top: 15px;
+    color: white;
+    background-color:#3C2313;
+    height: 35px;
+    width: 300px;
+    border-radius: 15px;
+}
+#botones{
+    display: flex;
+}
+#botones .borrar{
+        background-color:#8A8787;
+        margin-right: 30px;
+        height: 35px;
+        width: 100px;
+}
+#botones .enviar{
+    background-color:#F0A83E;
+    height: 35px;
+    width: 100px;
 
 }
-footer {
+
+/* seccion suscribirse */
+
+#suscribirse{
+    height: 80px;
+    background-color:#F0A83E ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.botones-suscribirse{
+  display: flex;
+}
+.botones-suscribirse .email{
+    background-color: white;
+    width: 300px;
+  }
+.botones-suscribirse .suscribirme{
+    margin-left: 5%;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+  }
+  #suscribirse .correo{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    left: -110px;
+}
+#suscribirse #suscribete{
+    
+    color: white;
+    position:relative;
+    left: -400px;
+}
+/* pie de pagina */
+footer{
+
     background-color: #3C2313;
+    height: 220px;
+}
+#logo-footer{
+    height: 50px;
+    padding-top: 4%;
+    position: absolute;
+    left: 80%;
+}
+.iconos {
+    color: #8A8787;
+    font-size: 40px;
+    
+}
+footer #localidad {
+    display: flex;
+    position: relative;
+    left: 2%;
+    top: 20px;
+    
+}
+footer #localidad h3{
+    display: flex;
+    position: relative;
+    left: 2%;
+    top: -15px;
+    
+}
+footer #localidad .datos{
+    display: flex;
+    position: relative;
+    left: -50px;
+    top: 15px;
+}
+footer #celular {
+    display: flex;
+    position: relative;
+    left: 2%;
+    top: 20px;
+}
+footer #celular h3{
+    display: flex;
+    position: relative;
+    left: 1.5%;
+    top: -15px;   
+}
+footer #celular .datos{
+    display: flex;
+    position: relative;
+    left: -140px;
+    top: 15px;
+}
+footer #correo {
+    display: flex;
+    position: relative;
+    left: 2%;
+    top: 20px;   
+}
+footer #correo h3{
+    display: flex;
+    position: relative;
+    left: 1.5%;
+    top: -15px;   
+}
+footer #correo .datos{
+    display: flex;
+    position: relative;
+    left: -8%;
+    top: 15px;
 }
 footer h3{
     color:white;
 }
 footer .datos {
     color: #8A8787;
-
 } 
-.contacto {
-    color: #8A8787;
-    font-size: 40px;
-    
-}
+/* copyright */
 #copyright {
+    margin:0% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     text-align: center;
-    background-color:#F0A83E ;
+    background-color:#181818 ;
+    height: 30px;
+}
+/* media queries */
+@media screen and (max-width:500px){
+    #menu-navegacion{
+        display: none;
+    }
+    #logo{
+        height: 40px;
+        margin-top: 3%;
+    }
+    #menu li{
+        display: none;
+    }
+    #menu-hamburguesa .hamburguesa{
+        display: flex;
+        position: relative;
+        top: 17px;
+        left: 50px;
+        font-size: 20px;
+        color: white;
+    }
+    #banner{
+        height: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    #banner h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 10%;
+        top: 35%;
+        width: 400px;
+        height: 70px;
+        background-color: white;
+        font-weight: normal;
+        font-size: 30px;
+        color:#3C2313;
+        border-radius: 8px;  
+    }
+    #comederos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        font-weight: normal;
+        position: relative;
+        top: 35%;
+        left: 50%;
+        width: 200px;
+        height: 60px;
+        background-color: #F0A83E ;
+        border-radius: 8px;
+    }
+    #descuento {
+        position:relative;
+        left: 33%;
+        top: 33%;
+        width: 350px;
+        font-weight: normal;
+        color: #3C2313;
+    }   
+    #tienda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botones-suscribirse .email{
+        position: relative;
+        left: -4rem;
+    }
+    .botones-suscribirse .suscribirme{
+        position: relative;
+        left: -3rem;
+      }
+    #logo-footer{
+        height: 30px;
+        padding-top: 4%;
+        position: relative;
+        left: 35%;
+        top: -5%;
+    }
+    footer #localidad {
+        display: flex;
+        position: relative;
+        left: 40%;
+        top: 2px;
+        
+    }
+    footer #localidad h3{
+        display: flex;
+        position: relative;
+        left: 5%;
+        top: -30px;
+        
+    }
+    footer #localidad .datos{
+        display: flex;
+        position: relative;
+        left: -65px;
+        top: 0px;
+    }
+    .iconos{
+        position: relative;
+        top: -10px;
+        left: -20px;
+    }
+    footer #celular {
+        display: flex;
+        position: relative;
+        left: 40%;
+        top: -8px;
+    }
+    footer #celular .datos{
+        display: flex;
+        position: relative;
+        left: -160px;
+        top: 15px;
+    }
+    footer #correo {
+        display: flex;
+        position: relative;
+        left: 40%;
+        top: -5px; 
+    }
+    footer #correo .datos{
+        display: flex;
+        position: relative;
+        left: -30%;
+        top: 15px;
+    }
+    footer h3{
+        color:white;
+    }
+    footer .datos {
+        color: #8A8787;
+    
+    } 
+   
+   
+   
 }
