@@ -1,20 +1,51 @@
 html{
     font-family: 'Roboto', sans-serif;
-}
-header #cabecera {
-    background-color: #1CD1B0;
-    padding: 6px;
-}
-header h1 {
-    background-color: #00669F;
-    padding: 20px;
-    margin-top: -20px;
+    margin: 0;
+    padding: 0;
 }
 
+header #cabecera {
+    background-color: #1CD1B0;
+    padding: 0.5%;
+    
+}
+#cabecera-principal{
+    background-color: #00669f;
+    display: flex;
+    margin-top: -1%;
+}
+h1{
+    font-weight: normal;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    font-size: 1.5rem;
+    color: white;
+}
+#logo{
+    height: 60px;
+    padding-top: 0.5%;
+    padding-left: 1%;
+}
+/* menu de navegacion */
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #001D2D;
+}
+#menu ul{
+    display: flex;
+}
+#menu li{
+    color: white;
+    display: flex;
+    margin: -5px 18px;
+    
+}
 .container{
     display: flex;
     justify-content: space-around;
     border: solid 3px rgb(80, 253, 11);
+    margin-top: 1.8%;
 
 }
 .container .card{
@@ -69,9 +100,51 @@ h2 {
     color: white;
     padding:20px;
 }
+/* codigo pagina contacto */
+#formulario{
+    color: #333333;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-left: 33%;
+}
+#formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#formulario-contacto input, textarea{
+    width: 30%;
+    height: 35px;
+    margin: 0.5%;
+  
+}
+#formulario-contacto textarea{
+    height: 200px;
+    font-family:'Roboto', sans-serif ;
+    line-height: 180%;
+    color: grey;
+}
+#botones{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+#botones #resetear{
+    color: white;
+    font-weight: bold;
+    background-color: #888888;
+    border-radius: 20px;
+}
+#botones #enviar{
+    color:#333333 ;
+    font-weight: bold;
+    background-color: #1CD1B0;
+    border-radius: 20px;
+}
+
 #pie-pagina{
     color: white;
-    padding-left:20px;
+    text-align: center;
    position:fixed;
    left:0px;
    bottom:0px;
