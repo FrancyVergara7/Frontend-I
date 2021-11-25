@@ -152,6 +152,18 @@ input{
 #botones{
     display: flex;
 }
+#contacto input:hover{
+    background-color: #F0A83E;
+    border: #F0A83E;
+    
+}
+#contacto input:focus{
+    font-weight: bold;
+}
+#botones:hover{
+    width: 200px;
+
+}
 #botones .borrar{
         background-color:#8A8787;
         margin-right: 30px;
